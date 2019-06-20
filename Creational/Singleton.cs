@@ -6,7 +6,8 @@ using System.Text;
 namespace SingletonDesignPattern
 {
     // eager initialization of singleton pattern
-    public class Singleton{
+    public class Singleton
+    {
         private static Singleton instance = new Singleton();
         private Singleton()
         {
